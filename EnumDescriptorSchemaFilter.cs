@@ -27,18 +27,13 @@ namespace SwaggerGenEnums
 
             if (typeInfo.IsEnum)
             {
-                AppendEnumDescription(schema, typeInfo);
+                schema.Description = BuildDescription(typeInfo);
             }
         }
 
         #endregion Public Methods
 
         #region Private Methods
-
-        private static void AppendEnumDescription(Schema schema, TypeInfo typeInfo)
-        {
-            schema.Description = BuildDescription(typeInfo);
-        }
 
         private static string BuildDescription(TypeInfo typeInfo)
         {
