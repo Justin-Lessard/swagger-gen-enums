@@ -4,6 +4,18 @@
         <name>SwaggerGenEnums</name>
     </assembly>
     <members>
+        <member name="T:SwaggerGenEnums.EnumDescriptorSchemaFilter">
+            <summary>
+            Add enum description to swagger gen files
+            </summary>
+        </member>
+        <member name="M:SwaggerGenEnums.EnumDescriptorSchemaFilter.Apply(Swashbuckle.AspNetCore.Swagger.Schema,Swashbuckle.AspNetCore.SwaggerGen.SchemaFilterContext)">
+             <summary>
+            
+             </summary>
+             <param name="schema"></param>
+             <param name="context"></param>
+        </member>
         <member name="T:SwaggerGenEnums.Models.TestDTO">
             <summary>
             Description of TestDTO
@@ -23,6 +35,45 @@
             <summary>
             Description of TestEnum
             </summary>
+        </member>
+        <member name="F:SwaggerGenEnums.Models.TestEnum.Value01">
+            <summary>
+            Description of value 01
+            </summary>
+        </member>
+        <member name="F:SwaggerGenEnums.Models.TestEnum.Value02">
+            <summary>
+            Description of value 02
+            </summary>
+        </member>
+        <member name="T:SwaggerGenEnums.XmlDocHelper">
+            <summary>
+            Extensions methods for xml doc files
+            </summary>
+        </member>
+        <member name="M:SwaggerGenEnums.XmlDocHelper.GetDocMember(System.Xml.Linq.XElement,System.Reflection.MemberInfo)">
+            <summary>
+            Get the xml element representing the member
+            </summary>
+            <param name="membersRoot"></param>
+            <param name="member"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerGenEnums.XmlDocHelper.GetTypeMember(System.Xml.Linq.XElement,System.Reflection.TypeInfo)">
+            <summary>
+            Get the xml element representing the member
+            </summary>
+            <param name="membersRoot"></param>
+            <param name="member"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerGenEnums.XmlDocHelper.GetXmlDocFile(System.Reflection.Assembly,System.Globalization.CultureInfo)">
+            <summary>
+            Find the XML documentation files for a given assembly
+            </summary>
+            <param name="assembly"></param>
+            <param name="culture"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>
