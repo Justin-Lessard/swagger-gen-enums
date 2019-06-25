@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerGenEnums</name>
+    </assembly>
+    <members>
+        <member name="T:SwaggerGenEnums.Models.TestDTO">
+            <summary>
+            Description of TestDTO
+            </summary>
+        </member>
+        <member name="P:SwaggerGenEnums.Models.TestDTO.Timestamp">
+            <summary>
+            A normal timestamp
+            </summary>
+        </member>
+        <member name="P:SwaggerGenEnums.Models.TestDTO.Enum">
+            <summary>
+            Description of the property
+            </summary>
+        </member>
+        <member name="T:SwaggerGenEnums.Models.TestEnum">
+            <summary>
+            Description of TestEnum
+            </summary>
+        </member>
+    </members>
+</doc>
